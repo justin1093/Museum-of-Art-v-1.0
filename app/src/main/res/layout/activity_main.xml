@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.justin.anew.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="370dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:contextClickable="true"
+                        android:elevation="4dp"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="18dp" />
+                        <!--android:src="@drawable/profile"-->
+
+
+                        <TextView
+                            android:id="@+id/cardview_list_title0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:paddingBottom="5dp"
+                            android:text="Museum"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/short_description0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cardview_list_title0"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:text="Find the places you want to visit "
+                            android:textColor="#8b8b8b" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="18dp" />
+                        <!--android:src="@drawable/profile"-->
+
+
+                        <TextView
+                            android:id="@+id/cardview_list_title0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:paddingBottom="5dp"
+                            android:text="Locate"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/short_description0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cardview_list_title0"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:text="Navigate to your destination."
+                            android:textColor="#8b8b8b" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="18dp" />
+                        <!--android:src="@drawable/profile"-->
+
+
+                        <TextView
+                            android:id="@+id/cardview_list_title0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:paddingBottom="5dp"
+                            android:text="Plan your trip"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/short_description0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cardview_list_title0"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:text="You travell will be planned by our AI"
+                            android:textColor="#8b8b8b" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="18dp" />
+                        <!--android:src="@drawable/profile"-->
+
+
+                        <TextView
+                            android:id="@+id/cardview_list_title0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:paddingBottom="5dp"
+                            android:text="Demo"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/short_description0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cardview_list_title0"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:text="Find out to use our app"
+                            android:textColor="#8b8b8b" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="18dp" />
+                        <!--android:src="@drawable/profile"-->
+
+
+                        <TextView
+                            android:id="@+id/cardview_list_title0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:paddingBottom="5dp"
+                            android:text="More"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/short_description0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cardview_list_title0"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:text="Explore the app"
+                            android:textColor="#8b8b8b" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="18dp" />
+                        <!--android:src="@drawable/profile"-->
+
+
+                        <TextView
+                            android:id="@+id/cardview_list_title0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:paddingBottom="5dp"
+                            android:text="*******************"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/short_description0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cardview_list_title0"
+                            android:layout_toRightOf="@+id/cardview_image0"
+                            android:text="---------------*****-------------------"
+                            android:textColor="#8b8b8b" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+
+
+        />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
